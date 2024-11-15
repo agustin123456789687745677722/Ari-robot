@@ -1,0 +1,183 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f7b500;
+}
+
+/* Contenedor azul para la sección principal */
+#contenedor-azul {
+    background-color: #0078D4;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contenedor-azul h1 {
+    font-size: 3em;
+}
+
+#contenedor-azul p {
+    font-size: 1.5em;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espacio entre imágenes */
+}
+
+.imagen-lado, .imagen-central {
+    width: 300px; /* Ajusta el tamaño de las imágenes */
+    height: 300px; /* Asegúrate de que el ancho y alto sean iguales para que sean perfectamente circulares */
+    border-radius: 50%; /* Hace que las imágenes sean circulares */
+    object-fit: cover; /* Asegura que la imagen llene el contenedor circular sin deformarse */
+}
+
+/* Sección de características */
+#caracteristicas {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+#caracteristicas h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#caracteristicas p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#caracteristicas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#caracteristicas ul li {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Sección de APK */
+#apk {
+    text-align: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+}
+
+#apk h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#apk p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#apk .btn-download {
+    display: inline-block;
+    background-color: #0078D4;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#apk .btn-download:hover {
+    background-color: #005f99;
+}
+
+/* Sección de contacto */
+#contacto {
+    padding: 40px;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+#contacto h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#contacto p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contacto input,
+#contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contacto button {
+    background-color: #0078D4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background-color: #005f99;
+}
+
+/* Estilos de la flecha en la sección de contacto */
+#flecha {
+    width: 100px;
+    height: auto; /* Ajusta solo la altura de la imagen */
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
